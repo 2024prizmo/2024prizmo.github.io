@@ -1,0 +1,229 @@
+/*шапка фон*/
+
+body {
+	font: 14px/18px "Times New Roman", Times, serif;
+	color:#000000;
+	min-width:1024px;
+	background: #ffffbf;
+}
+h1 /*Заголовок второго уровня (***Восточная философия**/{
+  line-height:10px;
+    font-size: 470%; 
+	margin-left:370px;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    color: #ffffbf;
+  }
+h2 /*Заголовок второго уровня (***Восточная философия**/{
+  line-height:38px;
+    font-size: 145%; 
+	margin-left:140px;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    color: #ffffbf;
+	vertical-align: sub;
+  }
+h3 /*Заголовок третьего уровня (***Возникновение ....**/{
+  line-height:38px;
+    font-size: 145%; 
+	margin-left:100px;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    color: #ffffbf;
+	font-weight: 700;
+	vertical-align: sub;
+  }
+  h4 /*Заголовок четвертого уровня (*** ....**/{
+  line-height:12px;
+    
+	margin-left:10px;
+    font-family:Times New Roman;
+	text-align:justify;
+    color: #000000;
+	font-weight: 100;
+	vertical-align: sub;
+	font-size: 25px;
+	margin-left:560px;
+	margin-right:100px;
+	text-align:justify;
+	text-indent: 50px; 
+	padding: 0px;
+	
+  }
+  h5 { line-height:10px;
+    font-size: 145%; 
+	margin-left:220px;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    color: #ffffbf;
+	font-weight: 700;
+	
+  }
+  h6 { 
+	line-height:10px;
+    font-size: 145%; 
+	margin-left:470px;
+    font-family: Brush Script MT, Brush Script Std, cursive; 
+    color: #ffffbf;
+	font-weight: 700;
+	
+  }
+ .p5 {
+	padding-bottom:25px;
+	color:#000000;
+	font-size: 20px;
+	word-spacing: 15px;
+	line-height: 120%;
+	font-weight: 500;
+	text-transform: Times New Roman;
+	margin-left:80px;
+	margin-right:740px;
+	text-indent: 20px;
+	text-align:justify;
+	text-indent: 50px; 
+	padding: 0px;
+	
+}
+.p6 {
+	padding-bottom:25px;
+	color:#000000;
+	font-size: 20px;
+	word-spacing: 15px;
+	line-height: 120%;
+	font-weight: 500;
+	text-transform: Times New Roman;
+	margin-left:80px;
+	margin-right:740px;
+	text-indent: 20px;
+	text-align:justify;
+	text-indent: 50px; 
+	padding: 0px;
+	
+}
+.p7 {
+	padding-bottom:25px;
+	color:#000000;
+	font-size: 20px;
+	word-spacing: 15px;
+	line-height: 120%;
+	font-weight: 500;
+	text-transform: Times New Roman;
+	margin-left:80px;
+	margin-right:100px;
+	text-indent: 20px;
+	text-align:justify;
+	text-indent: 50px; 
+	padding: 0px;
+}
+.p8 {
+	padding-bottom:25px;
+	color:#000000;
+	font-size: 20px;
+	word-spacing: 15px;
+	line-height: 120%;
+	font-weight: 500;
+	text-transform: Times New Roman;
+	margin-left:80px;
+	margin-right:100px;
+	text-indent: 20px;
+	text-align:justify;
+	text-indent: 50px; 
+	padding: 0px;
+}
+
+
+ /* меню */
+/*горизонтальное меню*/
+body {
+  margin: 0;
+  background-image: url(http://flatonika.ru/wp-content/uploads/2014/09/Krasivie-foni-dlya-sayta-Background-04-e1409774841491.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 25000px 15000px;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  text-align: center;
+  padding: 40px 0 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li > a {
+  position: relative;
+  padding: 10px 15px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.9em;
+  line-height: 1;
+  letter-spacing: 3px;
+  font-weight: 900;
+  color: #ffffbf;
+  margin: 0%; 
+}
+.topmenu > li > a:before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  left: 60%;
+  top: 100%;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 60%;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  transition: .3s;
+}
+.topmenu li:hover a:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.submenu {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.submenu a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: .3s linear;
+}
+
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #87CEFA;/* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+
+
+
